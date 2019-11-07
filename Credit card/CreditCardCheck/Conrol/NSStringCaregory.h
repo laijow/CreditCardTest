@@ -13,5 +13,11 @@
 
 - (NSString*)clearCardString;
 
+- (BOOL)containsOnlyDecimalCharacter;
+
+- (BOOL)creditCardLenthCheck;
+
+- (BOOL)luhnValidateString;
+
 @end
 

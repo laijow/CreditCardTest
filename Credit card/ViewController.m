@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *bankDescriptionLabel;
 @property (weak, nonatomic) IBOutlet CheckButton *checkButton;
 @property (weak, nonatomic) IBOutlet UITextField *cardNumberTextFiled;
+@property (nonatomic) CCValid * validator;
 @property (nonatomic) CardItem * item;
 
 @end
@@ -30,9 +31,24 @@ NSString * cardNumber;
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
-    [_checkButton disabled:false];
+    [self addTapToView];
+    [_checkButton disabled:true];
     
+    _validator = [CCValid new];
     _cardNumberTextFiled.delegate = self;
+    
+}
+
+- (void)addTapToView {
+    
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(keyBoardHide)];
+    [self.view addGestureRecognizer:tap];
+    
+}
+
+- (void)keyBoardHide {
+    
+    [[UIApplication sharedApplication].keyWindow endEditing:true];
     
 }
 
@@ -56,10 +72,16 @@ NSString * cardNumber;
 
 - (void)showErrorAlertWith:(NSString*)text {
     
-    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Error" message:text preferredStyle:UIAlertControllerStyleAlert];
-    [alert addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil]];
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Error"
+                                                                    message:text
+                                                             preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Ok"
+                                              style:UIAlertActionStyleDefault
+                                            handler:nil]];
     
-    [self presentViewController:alert animated:true completion:nil];
+    [self presentViewController:alert
+                       animated:true
+                     completion:nil];
     
 }
 
@@ -81,8 +103,9 @@ NSString * cardNumber;
     
     NSMutableString* cardString = [NSMutableString stringWithFormat:@"%@", textField.text];
     [cardString insertString:string atIndex:range.location];
+    cardNumber = [cardString clearCardString];
     
-    cardNumber = cardString;
+    [_checkButton disabled:![_validator creditCardValidWith:cardNumber]];
     
     return true;
     

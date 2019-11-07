@@ -14,3 +14,4 @@
 
 #import <Foundation/Foundation.h>
 #import "NSStringCaregory.h"
+#import "CCValid.h"

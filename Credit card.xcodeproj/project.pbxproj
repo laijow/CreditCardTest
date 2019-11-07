@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844E7DC4237412F200DA2F75 /* CCValid.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E7DBE237412F100DA2F75 /* CCValid.m */; };
+		844E7DC5237412F200DA2F75 /* NSStringCaregory.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E7DC1237412F100DA2F75 /* NSStringCaregory.m */; };
+		844E7DCD2374136A00DA2F75 /* CreditCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E7DCC2374136A00DA2F75 /* CreditCardTests.m */; };
 		CE303F7F2372F6C600835389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F7E2372F6C600835389 /* AppDelegate.m */; };
 		CE303F822372F6C600835389 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F812372F6C600835389 /* SceneDelegate.m */; };
 		CE303F852372F6C600835389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F842372F6C600835389 /* ViewController.m */; };
@@ -18,10 +21,27 @@
 		CE303F9D2373017900835389 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F9C2373017900835389 /* Settings.m */; };
 		CE303FA2237305AE00835389 /* CheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FA1237305AE00835389 /* CheckButton.m */; };
 		CE303FA623730B3F00835389 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FA523730B3F00835389 /* ServerManager.m */; };
-		CE303FAB2373C63100835389 /* NSStringCaregory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FAA2373C63100835389 /* NSStringCaregory.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		844E7DCF2374136A00DA2F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE303F722372F6C600835389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE303F792372F6C600835389;
+			remoteInfo = "Credit card";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		844E7DBE237412F100DA2F75 /* CCValid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCValid.m; sourceTree = "<group>"; };
+		844E7DC0237412F100DA2F75 /* NSStringCaregory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCaregory.h; sourceTree = "<group>"; };
+		844E7DC1237412F100DA2F75 /* NSStringCaregory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCaregory.m; sourceTree = "<group>"; };
+		844E7DC2237412F100DA2F75 /* CCValid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCValid.h; sourceTree = "<group>"; };
+		844E7DC3237412F100DA2F75 /* CCCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCheck.h; sourceTree = "<group>"; };
+		844E7DCA2374136A00DA2F75 /* CreditCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844E7DCC2374136A00DA2F75 /* CreditCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardTests.m; sourceTree = "<group>"; };
+		844E7DCE2374136A00DA2F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE303F7A2372F6C600835389 /* Credit card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE303F7D2372F6C600835389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE303F7E2372F6C600835389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,12 +62,16 @@
 		CE303FA1237305AE00835389 /* CheckButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckButton.m; sourceTree = "<group>"; };
 		CE303FA423730B3F00835389 /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
 		CE303FA523730B3F00835389 /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
-		CE303FA92373C63000835389 /* NSStringCaregory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringCaregory.h; sourceTree = "<group>"; };
-		CE303FAA2373C63100835389 /* NSStringCaregory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringCaregory.m; sourceTree = "<group>"; };
-		CE303FAF2373C8BD00835389 /* CCCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCheck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		844E7DC72374136A00DA2F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE303F772372F6C600835389 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +82,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844E7DB62374123D00DA2F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844E7DBD237412F100DA2F75 /* CreditCardCheck */ = {
+			isa = PBXGroup;
+			children = (
+				844E7DBF237412F100DA2F75 /* Conrol */,
+				844E7DBE237412F100DA2F75 /* CCValid.m */,
+				844E7DC2237412F100DA2F75 /* CCValid.h */,
+				844E7DC3237412F100DA2F75 /* CCCheck.h */,
+			);
+			path = CreditCardCheck;
+			sourceTree = "<group>";
+		};
+		844E7DBF237412F100DA2F75 /* Conrol */ = {
+			isa = PBXGroup;
+			children = (
+				844E7DC0237412F100DA2F75 /* NSStringCaregory.h */,
+				844E7DC1237412F100DA2F75 /* NSStringCaregory.m */,
+			);
+			path = Conrol;
+			sourceTree = "<group>";
+		};
+		844E7DCB2374136A00DA2F75 /* CreditCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				844E7DCC2374136A00DA2F75 /* CreditCardTests.m */,
+				844E7DCE2374136A00DA2F75 /* Info.plist */,
+			);
+			path = CreditCardTests;
+			sourceTree = "<group>";
+		};
 		CE303F712372F6C600835389 = {
 			isa = PBXGroup;
 			children = (
 				CE303F7C2372F6C600835389 /* Credit card */,
+				844E7DCB2374136A00DA2F75 /* CreditCardTests */,
 				CE303F7B2372F6C600835389 /* Products */,
+				844E7DB62374123D00DA2F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CE303F7A2372F6C600835389 /* Credit card.app */,
+				844E7DCA2374136A00DA2F75 /* CreditCardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,7 +140,7 @@
 		CE303F7C2372F6C600835389 /* Credit card */ = {
 			isa = PBXGroup;
 			children = (
-				CE303FA723731A7B00835389 /* CreditCardCheck */,
+				844E7DBD237412F100DA2F75 /* CreditCardCheck */,
 				CE303FA323730B2200835389 /* Server manager */,
 				CE303F9E2373019200835389 /* Controls */,
 				CE303F9A2373016800835389 /* Settings */,
@@ -133,27 +196,27 @@
 			path = "Server manager";
 			sourceTree = "<group>";
 		};
-		CE303FA723731A7B00835389 /* CreditCardCheck */ = {
-			isa = PBXGroup;
-			children = (
-				CE303FA823731AC100835389 /* Conrol */,
-				CE303FAF2373C8BD00835389 /* CCCheck.h */,
-			);
-			path = CreditCardCheck;
-			sourceTree = "<group>";
-		};
-		CE303FA823731AC100835389 /* Conrol */ = {
-			isa = PBXGroup;
-			children = (
-				CE303FA92373C63000835389 /* NSStringCaregory.h */,
-				CE303FAA2373C63100835389 /* NSStringCaregory.m */,
-			);
-			path = Conrol;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		844E7DC92374136A00DA2F75 /* CreditCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844E7DD12374136A00DA2F75 /* Build configuration list for PBXNativeTarget "CreditCardTests" */;
+			buildPhases = (
+				844E7DC62374136A00DA2F75 /* Sources */,
+				844E7DC72374136A00DA2F75 /* Frameworks */,
+				844E7DC82374136A00DA2F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844E7DD02374136A00DA2F75 /* PBXTargetDependency */,
+			);
+			name = CreditCardTests;
+			productName = CreditCardTests;
+			productReference = 844E7DCA2374136A00DA2F75 /* CreditCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CE303F792372F6C600835389 /* Credit card */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE303F932372F6C800835389 /* Build configuration list for PBXNativeTarget "Credit card" */;
@@ -180,8 +243,13 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Yem Anatoly";
 				TargetAttributes = {
+					844E7DC92374136A00DA2F75 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CE303F792372F6C600835389;
+					};
 					CE303F792372F6C600835389 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -199,11 +267,19 @@
 			projectRoot = "";
 			targets = (
 				CE303F792372F6C600835389 /* Credit card */,
+				844E7DC92374136A00DA2F75 /* CreditCardTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		844E7DC82374136A00DA2F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE303F782372F6C600835389 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		844E7DC62374136A00DA2F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844E7DCD2374136A00DA2F75 /* CreditCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE303F762372F6C600835389 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,16 +308,25 @@
 				CE303F852372F6C600835389 /* ViewController.m in Sources */,
 				CE303F7F2372F6C600835389 /* AppDelegate.m in Sources */,
 				CE303F9D2373017900835389 /* Settings.m in Sources */,
+				844E7DC4237412F200DA2F75 /* CCValid.m in Sources */,
 				CE303FA2237305AE00835389 /* CheckButton.m in Sources */,
 				CE303FA623730B3F00835389 /* ServerManager.m in Sources */,
 				CE303F992372FDC900835389 /* CardItem.m in Sources */,
 				CE303F902372F6C800835389 /* main.m in Sources */,
-				CE303FAB2373C63100835389 /* NSStringCaregory.m in Sources */,
 				CE303F822372F6C600835389 /* SceneDelegate.m in Sources */,
+				844E7DC5237412F200DA2F75 /* NSStringCaregory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844E7DD02374136A00DA2F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE303F792372F6C600835389 /* Credit card */;
+			targetProxy = 844E7DCF2374136A00DA2F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE303F862372F6C600835389 /* Main.storyboard */ = {
@@ -255,6 +348,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		844E7DD22374136A00DA2F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YEM.CreditCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credit card.app/Credit card";
+			};
+			name = Debug;
+		};
+		844E7DD32374136A00DA2F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CreditCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YEM.CreditCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credit card.app/Credit card";
+			};
+			name = Release;
+		};
 		CE303F912372F6C800835389 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -369,15 +498,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 998F965232;
 				INFOPLIST_FILE = "Credit card/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "YA.Credit-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -385,21 +519,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 998F965232;
 				INFOPLIST_FILE = "Credit card/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "YA.Credit-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		844E7DD12374136A00DA2F75 /* Build configuration list for PBXNativeTarget "CreditCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844E7DD22374136A00DA2F75 /* Debug */,
+				844E7DD32374136A00DA2F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE303F752372F6C600835389 /* Build configuration list for PBXProject "Credit card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
