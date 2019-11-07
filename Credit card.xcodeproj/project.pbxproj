@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE303F7F2372F6C600835389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F7E2372F6C600835389 /* AppDelegate.m */; };
+		CE303F822372F6C600835389 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F812372F6C600835389 /* SceneDelegate.m */; };
+		CE303F852372F6C600835389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F842372F6C600835389 /* ViewController.m */; };
+		CE303F882372F6C600835389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE303F862372F6C600835389 /* Main.storyboard */; };
+		CE303F8A2372F6C800835389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE303F892372F6C800835389 /* Assets.xcassets */; };
+		CE303F8D2372F6C800835389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE303F8B2372F6C800835389 /* LaunchScreen.storyboard */; };
+		CE303F902372F6C800835389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F8F2372F6C800835389 /* main.m */; };
+		CE303F992372FDC900835389 /* CardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F982372FDC900835389 /* CardItem.m */; };
+		CE303F9D2373017900835389 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303F9C2373017900835389 /* Settings.m */; };
+		CE303FA2237305AE00835389 /* CheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FA1237305AE00835389 /* CheckButton.m */; };
+		CE303FA623730B3F00835389 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FA523730B3F00835389 /* ServerManager.m */; };
+		CE303FAB2373C63100835389 /* NSStringCaregory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE303FAA2373C63100835389 /* NSStringCaregory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE303F7A2372F6C600835389 /* Credit card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE303F7D2372F6C600835389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE303F7E2372F6C600835389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE303F802372F6C600835389 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CE303F812372F6C600835389 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CE303F832372F6C600835389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE303F842372F6C600835389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE303F872372F6C600835389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE303F892372F6C800835389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE303F8C2372F6C800835389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE303F8E2372F6C800835389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE303F8F2372F6C800835389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE303F972372FDC900835389 /* CardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardItem.h; sourceTree = "<group>"; };
+		CE303F982372FDC900835389 /* CardItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardItem.m; sourceTree = "<group>"; };
+		CE303F9B2373017900835389 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		CE303F9C2373017900835389 /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		CE303FA0237305AE00835389 /* CheckButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckButton.h; sourceTree = "<group>"; };
+		CE303FA1237305AE00835389 /* CheckButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckButton.m; sourceTree = "<group>"; };
+		CE303FA423730B3F00835389 /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		CE303FA523730B3F00835389 /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		CE303FA92373C63000835389 /* NSStringCaregory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringCaregory.h; sourceTree = "<group>"; };
+		CE303FAA2373C63100835389 /* NSStringCaregory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringCaregory.m; sourceTree = "<group>"; };
+		CE303FAF2373C8BD00835389 /* CCCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCheck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE303F772372F6C600835389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE303F712372F6C600835389 = {
+			isa = PBXGroup;
+			children = (
+				CE303F7C2372F6C600835389 /* Credit card */,
+				CE303F7B2372F6C600835389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE303F7B2372F6C600835389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE303F7A2372F6C600835389 /* Credit card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE303F7C2372F6C600835389 /* Credit card */ = {
+			isa = PBXGroup;
+			children = (
+				CE303FA723731A7B00835389 /* CreditCardCheck */,
+				CE303FA323730B2200835389 /* Server manager */,
+				CE303F9E2373019200835389 /* Controls */,
+				CE303F9A2373016800835389 /* Settings */,
+				CE303F962372FD1F00835389 /* Model */,
+				CE303F7D2372F6C600835389 /* AppDelegate.h */,
+				CE303F7E2372F6C600835389 /* AppDelegate.m */,
+				CE303F802372F6C600835389 /* SceneDelegate.h */,
+				CE303F812372F6C600835389 /* SceneDelegate.m */,
+				CE303F832372F6C600835389 /* ViewController.h */,
+				CE303F842372F6C600835389 /* ViewController.m */,
+				CE303F862372F6C600835389 /* Main.storyboard */,
+				CE303F892372F6C800835389 /* Assets.xcassets */,
+				CE303F8B2372F6C800835389 /* LaunchScreen.storyboard */,
+				CE303F8E2372F6C800835389 /* Info.plist */,
+				CE303F8F2372F6C800835389 /* main.m */,
+			);
+			path = "Credit card";
+			sourceTree = "<group>";
+		};
+		CE303F962372FD1F00835389 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE303F972372FDC900835389 /* CardItem.h */,
+				CE303F982372FDC900835389 /* CardItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE303F9A2373016800835389 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE303F9B2373017900835389 /* Settings.h */,
+				CE303F9C2373017900835389 /* Settings.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CE303F9E2373019200835389 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CE303FA0237305AE00835389 /* CheckButton.h */,
+				CE303FA1237305AE00835389 /* CheckButton.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		CE303FA323730B2200835389 /* Server manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE303FA423730B3F00835389 /* ServerManager.h */,
+				CE303FA523730B3F00835389 /* ServerManager.m */,
+			);
+			path = "Server manager";
+			sourceTree = "<group>";
+		};
+		CE303FA723731A7B00835389 /* CreditCardCheck */ = {
+			isa = PBXGroup;
+			children = (
+				CE303FA823731AC100835389 /* Conrol */,
+				CE303FAF2373C8BD00835389 /* CCCheck.h */,
+			);
+			path = CreditCardCheck;
+			sourceTree = "<group>";
+		};
+		CE303FA823731AC100835389 /* Conrol */ = {
+			isa = PBXGroup;
+			children = (
+				CE303FA92373C63000835389 /* NSStringCaregory.h */,
+				CE303FAA2373C63100835389 /* NSStringCaregory.m */,
+			);
+			path = Conrol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE303F792372F6C600835389 /* Credit card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE303F932372F6C800835389 /* Build configuration list for PBXNativeTarget "Credit card" */;
+			buildPhases = (
+				CE303F762372F6C600835389 /* Sources */,
+				CE303F772372F6C600835389 /* Frameworks */,
+				CE303F782372F6C600835389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credit card";
+			productName = "Credit card";
+			productReference = CE303F7A2372F6C600835389 /* Credit card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE303F722372F6C600835389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Yem Anatoly";
+				TargetAttributes = {
+					CE303F792372F6C600835389 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = CE303F752372F6C600835389 /* Build configuration list for PBXProject "Credit card" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE303F712372F6C600835389;
+			productRefGroup = CE303F7B2372F6C600835389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE303F792372F6C600835389 /* Credit card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE303F782372F6C600835389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE303F8D2372F6C800835389 /* LaunchScreen.storyboard in Resources */,
+				CE303F8A2372F6C800835389 /* Assets.xcassets in Resources */,
+				CE303F882372F6C600835389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE303F762372F6C600835389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE303F852372F6C600835389 /* ViewController.m in Sources */,
+				CE303F7F2372F6C600835389 /* AppDelegate.m in Sources */,
+				CE303F9D2373017900835389 /* Settings.m in Sources */,
+				CE303FA2237305AE00835389 /* CheckButton.m in Sources */,
+				CE303FA623730B3F00835389 /* ServerManager.m in Sources */,
+				CE303F992372FDC900835389 /* CardItem.m in Sources */,
+				CE303F902372F6C800835389 /* main.m in Sources */,
+				CE303FAB2373C63100835389 /* NSStringCaregory.m in Sources */,
+				CE303F822372F6C600835389 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE303F862372F6C600835389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE303F872372F6C600835389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE303F8B2372F6C800835389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE303F8C2372F6C800835389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE303F912372F6C800835389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE303F922372F6C800835389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE303F942372F6C800835389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Credit card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YA.Credit-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE303F952372F6C800835389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Credit card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YA.Credit-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE303F752372F6C600835389 /* Build configuration list for PBXProject "Credit card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE303F912372F6C800835389 /* Debug */,
+				CE303F922372F6C800835389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE303F932372F6C800835389 /* Build configuration list for PBXNativeTarget "Credit card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE303F942372F6C800835389 /* Debug */,
+				CE303F952372F6C800835389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE303F722372F6C600835389 /* Project object */;
+}
